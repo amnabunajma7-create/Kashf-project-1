@@ -1,1 +1,28 @@
+ip a
+ifconfig
+ping 192.168.100.82
+ping 192.168.100.75
+cd /opt/gophish
+ls
+sudo chmod +x gophish
+./gophish
+sudo systemctl start gophish
+sudo systemctl status gophish
+https://<KALI_IP>:3333
+pwd
+cd /opt/gophish
+ls -la
+sudo chmod +x gophish
+sudo ./gophish
+sudo ss -lntp | grep 3333
+sudo netstat -lntp | grep 3333
+ps aux | grep gophish
+sudo lsof -i :3333
+ip a
+ip r
+cat /etc/resolv.conf
+ping 192.168.100.75
+ping 192.168.100.82
+curl -k https://127.0.0.1:3333
+curl -k https://<KALI_IP>:3333
 
