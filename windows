@@ -1,0 +1,44 @@
+Sysmon64.exe -i sysmonconfig.xml
+Sysmon64.exe -c sysmonconfig.xml
+Sysmon64.exe -c
+sc query sysmon64
+net stop sysmon64
+net start sysmon64
+eventvwr.msc
+notepad C:\Sysmon\sysmonconfig.xml
+notepad "C:\Program Files (x86)\ossec-agent\ossec.conf"
+"C:\Program Files (x86)\ossec-agent\agent-auth.exe" -m 192.168.100.75
+net stop wazuhsvc
+net start wazuhsvc
+sc query wazuhsvc
+ipconfig
+Sysmon64.exe -i sysmonconfig.xml
+Sysmon64.exe -c sysmonconfig.xml
+Sysmon64.exe -c
+net stop sysmon64
+net start sysmon64
+sc query sysmon64
+eventvwr.msc
+notepad C:\Sysmon\sysmonconfig.xml
+notepad "C:\Program Files (x86)\ossec-agent\ossec.conf"
+"C:\Program Files (x86)\ossec-agent\agent-auth.exe" -m 192.168.100.75
+net stop wazuhsvc
+net start wazuhsvc
+sc query wazuhsvc
+ipconfig
+ping 192.168.100.75
+Sysmon64.exe -i sysmonconfig.xml
+Sysmon64.exe -c sysmonconfig.xml
+Sysmon64.exe -c
+net stop sysmon64
+net start sysmon64
+sc query sysmon64
+eventvwr.msc
+notepad C:\Sysmon\sysmonconfig.xml
+notepad "C:\Program Files (x86)\ossec-agent\ossec.conf"
+"C:\Program Files (x86)\ossec-agent\agent-auth.exe" -m 192.168.100.75
+net stop wazuhsvc
+net start wazuhsvc
+sc query wazuhsvc
+ipconfig
+ping 192.168.100.75
