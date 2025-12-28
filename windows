@@ -42,3 +42,18 @@ net start wazuhsvc
 sc query wazuhsvc
 ipconfig
 ping 192.168.100.75
+wf.msc
+secpol.msc
+eventvwr
+ping 192.168.100.75
+ping 192.168.100.82
+services.msc
+cmd
+wf.msc
+secpol.msc
+services.msc
+eventvwr
+cmd
+ping 192.168.100.75
+ping 192.168.100.82
+
